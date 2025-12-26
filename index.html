@@ -1,153 +1,611 @@
-<!DOCTYPE html>
+
+Conversation with Gemini
+<!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sriman Srinivasan — AI & Full-Stack ML Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles_Version2.css">
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Sriman Srinivasan — AI & Full-Stack ML Engineer</title>
+
+  <meta name="description" content="Portfolio of Sriman Srinivasan — Full-stack ML & AI engineer. No-code ML pipeline, Flight crash predictor, RAG+LLMs, EV Booker, SportsJob and more." />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles_Version2.">
+
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Open Graph -->
+
+  <meta property="og:title" content="Sriman Srinivasan — AI & Full-Stack ML Engineer">
+
+  <meta property="og:description" content="No-code ML pipeline, Flight crash predictor, RAG+LLMs, EV Booker, SportsJob and scalable full-stack systems.">
+
+  <meta property="og:type" content="website">
+
 </head>
+
 <body>
-    <div class="cursor-glow"></div>
-    
-    <nav class="navbar glass">
-        <div class="nav-content">
-            <div class="logo">SS</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact" class="nav-cta">Let's Talk</a>
-            </div>
+
+  <div class="page">
+
+    <header class="nav glass">
+
+      <div class="brand">
+
+        <div class="logo">SS</div>
+
+        <div>
+
+          <div class="name">Sriman Srinivasan</div>
+
+          <div class="subtitle">AI & Full-Stack ML Engineer</div>
+
         </div>
-    </nav>
 
-    <main class="container">
-        <section class="hero">
-            <div class="badge-container">
-                <span class="status-badge"><span class="pulse"></span> Available for ML Roles</span>
-            </div>
-            <h1 class="hero-title">Sriman <span class="gradient-text">Srinivasan</span></h1>
-            <p class="hero-subtitle">B.Tech (AI & Data Science) • IIITDM Kurnool. I bridge the gap between complex ML research and production-ready applications.</p>
-            
-            <div class="hero-btns">
-                <a href="#projects" class="btn-primary">View Systems</a>
-                <a href="mailto:srimanstudyforever@gmail.com" class="btn-secondary">Contact Me</a>
-            </div>
-        </section>
+      </div>
 
-        <section class="stats-bento">
-            <div class="bento-card glass main-info">
-                <div class="card-label">Top Performance</div>
-                <h3>Department Rank #1</h3>
-                <p>Maintaining a 9.03/10 CGPA over two consecutive years at IIITDM.</p>
-            </div>
-            <div class="bento-card glass highlight">
-                <div class="card-label">Problem Solving</div>
-                <div class="stat-num">1772</div>
-                <p>LeetCode (Top 5% Global)</p>
-            </div>
-            <div class="bento-card glass highlight">
-                <div class="card-label">Engineering</div>
-                <div class="stat-num">95%</div>
-                <p>Accuracy on IDS Ensemble</p>
-            </div>
-        </section>
+      <nav class="nav-links">
 
-        <section id="experience" class="section">
-            <h2 class="section-heading">Professional <span class="gradient-text">Journey</span></h2>
-            <div class="experience-list">
-                <div class="exp-item glass">
-                    <div class="exp-header">
-                        <div>
-                            <h3>ML Intern — CompSci Tech</h3>
-                            <p class="company">Remote | May 2025 – Jul 2025</p>
-                        </div>
-                        <span class="exp-tag">Latest</span>
-                    </div>
-                    <ul>
-                        <li>Spearheaded an IDS using ensemble neural networks (1D CNN, LSTM, XGBoost) with attention mechanisms.</li>
-                        <li>Improved model performance by 15% through strategic sampling and advanced feature engineering.</li>
-                        <li>Deployed production-ready models via Django with real-time CSV analytics dashboards.</li>
-                    </ul>
+        <a href="#about">About</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#achievements">Achievements</a>
+
+        <a href="#contact" class="cta">Contact</a>
+
+        <button id="theme-toggle" aria-label="Toggle theme">🌗</button>
+
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Open menu">☰</button>
+
+    </header>
+
+
+
+    <main>
+
+      <section class="hero" id="home">
+
+        <div class="hero-inner">
+
+          <div class="hero-left">
+
+            <h1>Hi, I'm Sriman Srinivasan</h1>
+
+            <p class="lead">B.Tech (AI & Data Science) • Full-stack ML Engineer — I design and ship production-ready ML products, scalable backends, and delightful frontends.</p>
+
+            <div class="hero-actions">
+
+              <a class="btn primary" href="#projects">See Projects</a>
+
+              <a class="btn outline" href="mailto:srimanstudyforever@gmail.com">Contact Me</a>
+
+            </div>
+
+            <ul class="contact-quick">
+
+              <li><strong>Location:</strong> Kurnool, India</li>
+
+              <li><strong>Email:</strong> <a href="mailto:srimanstudyforever@gmail.com">srimanstudyforever@gmail.com</a></li>
+
+              <li><strong>Phone:</strong> <a href="tel:+919445084905">+91 94450 84905</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="hero-right glass card">
+
+            <div class="profile">
+
+              <div class="avatar" aria-hidden="true">
+
+                <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="avatar-blob">
+
+                  <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+
+                  <rect width="120" height="120" rx="20" fill="url(#g1)"/>
+
+                  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Space Grotesk, Inter, sans-serif" font-size="42" fill="white">SS</text>
+
+                </svg>
+
+              </div>
+
+              <div class="profile-info">
+
+                <h3>Sriman Srinivasan</h3>
+
+                <p class="muted">B.Tech — AI & Data Science | IIITDM (CGPA: 9.03/10)</p>
+
+                <div class="links">
+
+                  <a href="https://github.com/project-2-2-2" target="_blank" rel="noopener">GitHub</a>
+
+                  <a href="https://www.linkedin.com/in/sriman-srinivasan-ba14a5313/" target="_blank" rel="noopener">LinkedIn</a>
+
+                  <a href="#" target="_blank" rel="noopener">Resume</a>
+
                 </div>
 
-                <div class="exp-item glass">
-                    <div class="exp-header">
-                        <div>
-                            <h3>SDE Intern — Databahn.ai</h3>
-                            <p class="company">Remote | May 2024 – Jul 2024</p>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Optimized RESTful API endpoints in Golang, reducing system latency and improving throughput.</li>
-                        <li>Achieved 25% reduction in data retrieval time via DB query optimization and CRUD efficiency.</li>
-                        <li>Increased scalability by 30% with 98% unit test coverage.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <div class="stats">
 
-        <section id="projects" class="section">
-            <h2 class="section-heading">Featured <span class="gradient-text">Projects</span></h2>
-            <div class="project-grid">
-                <div class="project-card glass">
-                    <div class="project-info">
-                        <h3>No-Code ML (testoo)</h3>
-                        <p>End-to-end platform for automated feature engineering, model selection, and one-click deployment.</p>
-                        <div class="tags"><span>TensorFlow</span><span>Django</span><span>React</span><span>Docker</span></div>
-                    </div>
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                        <h3>Flight Crash Predictor</h3>
-                        <p>Multimodal telemetry risk forecasting using LSTM and Attention mechanisms for safety-critical systems.</p>
-                        <div class="tags"><span>PyTorch</span><span>Time-Series</span><span>Flask</span></div>
-                    </div>
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                        <h3>EV Booker (Hackathon)</h3>
-                        <p>Real-time slot locking and payment integration for charging stations built during ANTZHACKATHON.</p>
-                        <div class="tags"><span>Socket.io</span><span>Node.js</span><span>MongoDB</span></div>
-                    </div>
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                        <h3>RAG Interview Assistant</h3>
-                        <p>Context-aware interview feedback system using LangChain and Vector Databases.</p>
-                        <div class="tags"><span>GenAI</span><span>LangChain</span><span>LLMs</span></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                  <div>
 
-        <section id="skills" class="section">
-            <div class="skills-container glass">
-                <h2 class="section-heading" style="margin-bottom: 20px;">Technical <span class="gradient-text">Stack</span></h2>
-                <div class="skills-grid">
-                    <div class="skill-group">
-                        <h4>Languages</h4>
-                        <p>Python, Go, C++, JavaScript, TypeScript, SQL</p>
-                    </div>
-                    <div class="skill-group">
-                        <h4>AI/ML</h4>
-                        <p>PyTorch, TensorFlow, Scikit-learn, NLP, Transformers, RAG, Computer Vision</p>
-                    </div>
-                    <div class="skill-group">
-                        <h4>Full-Stack</h4>
-                        <p>React, Node.js, Django, FastAPI, PostgreSQL, MongoDB, Docker, AWS</p>
-                    </div>
+                    <div class="num">95%</div>
+
+                    <div class="muted small">IDS accuracy</div>
+
+                  </div>
+
+                  <div>
+
+                    <div class="num">1772</div>
+
+                    <div class="muted small">LeetCode</div>
+
+                  </div>
+
+                  <div>
+
+                    <div class="num">9.03</div>
+
+                    <div class="muted small">CGPA</div>
+
+                  </div>
+
                 </div>
+
+              </div>
+
             </div>
-        </section>
+
+            <div class="tagline">I build production ML pipelines, deploy models as APIs, and craft scalable backend services.</div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="about" class="section container">
+
+        <h2 class="section-title">About</h2>
+
+        <div class="grid about-grid">
+
+          <div class="glass card about-card">
+
+            <h3>Profile</h3>
+
+            <p>I am a motivated AI & Full-Stack Engineer focused on building ML systems that bridge research and production. I enjoy automating pipelines, architecting scalable systems, and designing UX that helps people learn and use ML effectively.</p>
+
+            <ul>
+
+              <li>Indian Institute of Information Technology, Design and Manufacturing (IIITDM) — B.Tech in AI & Data Science</li>
+
+              <li>CGPA: 9.03 / 10.0 — Ranked 1st in department for 2 consecutive years</li>
+
+            </ul>
+
+          </div>
+
+          <div class="glass card highlights">
+
+            <h3>Contact & Links</h3>
+
+            <ul>
+
+              <li><strong>Phone:</strong> +91 94450 84905</li>
+
+              <li><strong>Email:</strong> <a href="mailto:srimanstudyforever@gmail.com">srimanstudyforever@gmail.com</a></li>
+
+              <li><strong>GitHub:</strong> <a href="https://github.com/project-2-2-2" target="_blank">github.com/project-2-2-2</a></li>
+
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sriman-srinivasan-ba14a5313/" target="_blank">linkedin.com/in/sriman-srinivasan-ba14a5313</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="experience" class="section container">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+
+            <div class="timeline-date">May 2025 – Jul 2025</div>
+
+            <div class="timeline-content glass">
+
+              <h3>Machine Learning Intern — CompSci Technology Solutions (Remote)</h3>
+
+              <ul>
+
+                <li>Spearheaded an Intrusion Detection System using ensemble neural networks combining 1D CNN, LSTM, and XGBoost with attention mechanisms achieving 95% accuracy.</li>
+
+                <li>Executed comprehensive preprocessing, feature engineering, and model optimization on large network traffic datasets; improved model performance by 15% versus baseline.</li>
+
+                <li>Engineered Random Forest, XGBoost, and MLP models with advanced optimizers and regularization; deployed models via Django application with CSV upload and dashboards.</li>
+
+                <li>Applied strategic sampling and regularization to handle class imbalance and reduce overfitting.</li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="timeline-item">
+
+            <div class="timeline-date">May 2024 – Jul 2024</div>
+
+            <div class="timeline-content glass">
+
+              <h3>Software Development Engineer Intern — Databahn.ai (Remote)</h3>
+
+              <ul>
+
+                <li>Developed and optimized RESTful API endpoints in Golang improving backend throughput and reducing system latency.</li>
+
+                <li>Implemented efficient CRUD operations and optimized DB queries — 25% reduction in data retrieval time.</li>
+
+                <li>Performed code optimization and identified bottlenecks to increase scalability by 30% with 98% unit test coverage.</li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="timeline-item">
+
+            <div class="timeline-date">2023 – 2027</div>
+
+            <div class="timeline-content glass">
+
+              <h3>Student — IIITDM (Kurnool)</h3>
+
+              <ul>
+
+                <li>B.Tech in Artificial Intelligence and Data Science</li>
+
+                <li>Relevant coursework: Deep Learning, NLP, Computer Vision, Data Structures & Algorithms, Databases, Operating Systems, Computer Networks</li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="projects" class="section container">
+
+        <h2 class="section-title">Projects</h2>
+
+        <p class="muted">Selected projects — full-stack systems, deep learning models, and ML product pipelines. All repos: <a href="https://github.com/project-2-2-2" target="_blank">github.com/project-2-2-2</a></p>
+
+
+
+        <div class="projects-grid">
+
+          <article class="project card glass" data-project="no-code-ml">
+
+            <div class="project-header"><h3>No-Code ML Pipeline (testoo)</h3><p class="muted small">Full-stack • No-code ML • Auto-feature engineering • Deployable models</p></div>
+
+            <div class="project-body">
+
+              <p>End-to-end no-code ML platform for learners. Upload CSVs, automatic preprocessing & feature engineering, model selection, hyperparameter tuning, and one-click deploy.</p>
+
+            </div>
+
+            <div class="project-footer">
+
+              <div class="tech">React • Django • TensorFlow • Docker • PostgreSQL</div>
+
+              <div class="actions"><a class="link" href="https://github.com/project-2-2-2/testoo" target="_blank">GitHub</a><button class="btn-sm view" data-project="no-code-ml">View</button></div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="project card glass" data-project="flight-predictor">
+
+            <div class="project-header"><h3>Flight Crash Predictor</h3><p class="muted small">Deep Learning • Time-series • Explainability</p></div>
+
+            <div class="project-body">
+
+              <p>Forecast flight risk using multimodal telemetry and incident histories. Emphasis on model explainability for decision support in safety-critical contexts.</p>
+
+            </div>
+
+            <div class="project-footer">
+
+              <div class="tech">PyTorch • LSTM • Attention • Flask • Docker</div>
+
+              <div class="actions"><a class="link" href="https://github.com/project-2-2-2/flight-crash-predictor" target="_blank">GitHub</a><button class="btn-sm view" data-project="flight-predictor">View</button></div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="project card glass" data-project="ev-booker">
+
+            <div class="project-header"><h3>Electronic Vehicle Booker (ANTZHACKATHON)</h3><p class="muted small">EV Booking • Real-time • Payment integration</p></div>
+
+            <div class="project-body">
+
+              <p>Built during ANTZHACKATHON — browse EVs, reserve charging/ride slots, manage reservations and payments with real-time slot locking to prevent double bookings.</p>
+
+            </div>
+
+            <div class="project-footer">
+
+              <div class="tech">React • Node.js • MongoDB • Socket.IO • Payments</div>
+
+              <div class="actions"><a class="link" href="https://github.com/project-2-2-2/ANTZHACKATHON" target="_blank">GitHub</a><button class="btn-sm view" data-project="ev-booker">View</button></div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="project card glass" data-project="ai-interview">
+
+            <div class="project-header"><h3>RAG-based Interview (meetingapp)</h3><p class="muted small">RAG • LLMs • React • Node</p></div>
+
+            <div class="project-body">
+
+              <p>Retrieval-augmented interview assistant that indexes job descriptions and docs to create context-aware interview sessions and feedback. (meetingapp)</p>
+
+            </div>
+
+            <div class="project-footer">
+
+              <div class="tech">React • Node • RAG • LangChain</div>
+
+              <div class="actions"><a class="link" href="https://github.com/project-2-2-2/meetingapp" target="_blank">GitHub</a><button class="btn-sm view" data-project="ai-interview">View</button></div>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="project card glass" data-project="sportsjob">
+
+            <div class="project-header"><h3>Sports Job (Sportsjob)</h3><p class="muted small">MERN • Realtime • Tailwind</p></div>
+
+            <div class="project-body">
+
+              <p>Platform connecting athletes and clubs — profiles, posts, listings, and real-time chat. Integrated AI chatbot for enhanced engagement.</p>
+
+            </div>
+
+            <div class="project-footer">
+
+              <div class="tech">MongoDB • Express • React • Node • Socket.IO</div>
+
+              <div class="actions"><a class="link" href="https://github.com/project-2-2-2/Sportsjob" target="_blank">GitHub</a><button class="btn-sm view" data-project="sportsjob">View</button></div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="skills" class="section container">
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid glass card">
+
+          <div><h4>Languages & Core</h4><p>Python, C, C++, Go, JavaScript, TypeScript, SQL, HTML, CSS, DSA, OOPS</p></div>
+
+          <div><h4>Machine Learning & GenAI</h4><p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, PyTorch, OpenCV, NLP, Transformers, BERT, RAG, CNN, RNN, LSTM, XGBoost, Attention</p></div>
+
+          <div><h4>Web & Backend</h4><p>React.js, React Native, Node.js, Express.js, Flask, Django, MongoDB, MySQL, PostgreSQL, Mongoose, Tailwind CSS, RESTful APIs, Socket.IO, JWT</p></div>
+
+          <div><h4>Tools & Platforms</h4><p>Git, GitHub, Docker, AWS, Linux, Postman, Anaconda, Bash</p></div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="achievements" class="section container">
+
+        <h2 class="section-title">Achievements & Leadership</h2>
+
+        <div class="grid about-grid">
+
+          <div class="glass card">
+
+            <h3>Academic & Competitive</h3>
+
+            <ul>
+
+              <li>Ranked 1st in AI & Data Science department for 2 consecutive years — CGPA 9.03/10.</li>
+
+              <li>10th: 97.8%, 12th: 94.2%.</li>
+
+              <li>LeetCode Rating: 1772 (Top ~5%). Codeforces: Specialist (1426). CodeChef: 3-Star.</li>
+
+              <li>Participated in global contests: ICPC Prelims, Meta Hacker Cup; cleared Flipkart Grid 6.0 Round 1.</li>
+
+            </ul>
+
+          </div>
+
+          <div class="glass card">
+
+            <h3>Open Source & Leadership</h3>
+
+            <ul>
+
+              <li>Open Source Contribution (gsppy): Fixed algorithmic discrepancy in GSP algorithm; invited by CTO to implement enhancement.</li>
+
+              <li>Coordinator at DATAWORKS (DS Club): Led 10+ workshops for 100+ students, increasing participation by 40%.</li>
+
+              <li>Multiple hackathons with deployed prototypes (e.g., ANTZHACKATHON EV Booker).</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <section id="contact" class="section container">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+
+          <div class="glass card contact-card">
+
+            <h3>Let's build something great</h3>
+
+            <p>Open to internships, collaborations, and full-time roles in ML engineering and full-stack product development.</p>
+
+            <ul class="contact-list">
+
+              <li><strong>Email:</strong> <a href="mailto:srimanstudyforever@gmail.com">srimanstudyforever@gmail.com</a></li>
+
+              <li><strong>Phone:</strong> <a href="tel:+919445084905">+91 94450 84905</a></li>
+
+              <li><strong>Location:</strong> Kurnool, India</li>
+
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sriman-srinivasan-ba14a5313/" target="_blank">Sriman Srinivasan</a></li>
+
+              <li><strong>GitHub:</strong> <a href="https://github.com/project-2-2-2" target="_blank">project-2-2-2</a></li>
+
+            </ul>
+
+            <a class="btn primary" href="mailto:srimanstudyforever@gmail.com?subject=Opportunity">Email Me</a>
+
+          </div>
+
+
+
+          <form id="contact-form" class="glass card contact-form" onsubmit="return false;">
+
+            <label><span>Name</span><input type="text" id="c-name" placeholder="Your name" required></label>
+
+            <label><span>Email</span><input type="email" id="c-email" placeholder="you@example.com" required></label>
+
+            <label><span>Message</span><textarea id="c-message" placeholder="Let's talk about ML, product, or internships." rows="6" required></textarea></label>
+
+            <div class="form-actions">
+
+              <button class="btn primary" id="send-btn">Send</button>
+
+              <button class="btn outline" id="reset-btn" type="reset">Reset</button>
+
+            </div>
+
+            <p class="muted tiny">This form uses mailto (client) by default. You can wire it to a server endpoint or form service for production.</p>
+
+          </form>
+
+        </div>
+
+      </section>
+
+
+
     </main>
 
+
+
     <footer class="footer">
-        <p>© 2025 Sriman Srinivasan • Built for the future of AI</p>
+
+      <div class="container footer-inner">
+
+        <div>© <strong>Sriman Srinivasan</strong> — AI & Full-Stack ML Engineer</div>
+
+        <div class="footer-links">
+
+          <a href="https://github.com/project-2-2-2" target="_blank">GitHub</a>
+
+          <a href="https://www.linkedin.com/in/sriman-srinivasan-ba14a5313/" target="_blank">LinkedIn</a>
+
+          <a href="#" target="_blank">Resume</a>
+
+        </div>
+
+      </div>
+
     </footer>
 
-    <script src="script.js"></script>
+  </div>
+
+
+
+  <!-- Modal Template -->
+
+  <div id="project-modal" class="modal" aria-hidden="true">
+
+    <div class="modal-card glass">
+
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+
+      <div id="modal-content"></div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="script_Version3"></script>
+
 </body>
-</html>
+
+</html
